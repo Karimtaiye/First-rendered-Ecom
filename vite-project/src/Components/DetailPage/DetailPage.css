@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainDetail {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Wrapper {
+    width: 80%;
+    display: flex;
+    height: 85%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 3px;
+
+}
+.ImagePart {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImagePart img {
+    width: 90%;
+    height: 92%;
+}
+
+.DesPart {
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid black;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desWrapper{
+    width: 90%;
+    height: 92%;
+}
+
+.topPart{
+    width: 100%;
+    height: 50%;
+    gap: 9px;
+    background-color: blue;
+    padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.topPart h3{
+    font-family: cursive;
+}
+
+.topPart h4{
+    font-family: cursive;
+    font-size: 12px;
+}
+
+.topPart span{
+    font-family: cursive;
+    font-size: 17px;
+}
+.topPart p{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.BtnPart{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.BtnPart .Cart{
+    width: 60%;
+    height: 25%;
+    border: none;
+    border-radius: 3px;
+    background-color: green;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transform: scale(1);
+}
+
+.BtnPart .Wish{
+    width: 60%;
+    height: 25%;
+    border: none;
+    border-radius: 3px;
+    border:2px solid red;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    transform: scale(1);
+}
+
+.BtnPart .Cart:hover{
+    transition: all 350ms ease-in;
+    transform: scale(1.05);
+}
+
+.BtnPart .Wish:hover{
+    border:2px solid black;
+    color: white;
+    transition: all 350ms ease-in;
+    transform: scale(1.04);
+}

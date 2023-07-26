@@ -1,0 +1,144 @@
+.AllProductsContainer {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    user-select: none;
+}
+
+.hoverObj {
+    width: 22%;
+    height: 50vh;
+    position: relative;
+    margin-bottom: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 4%;
+    
+}
+
+.hoverIcons {
+    width: 100%;
+    height: 18%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.452);
+    position: absolute;
+    top: 53.1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hoverIcons:hover {
+    opacity: 1;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.IconDiv {
+    width: 17%;
+    height:80%;
+    border-radius: 50%;
+    background-color:darkgray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IconDiv:first-child {
+    padding-right: 4px;
+}
+
+.IconDiv:hover {
+    transition: all 750ms;
+    background-color:black ;
+}
+
+.Iconss{
+    color: red;
+    margin-top: 3px;
+}
+
+.Iconss:hover {
+    color: white;
+}
+
+.CardsContent {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    border-radius: 5px;
+    
+}
+
+.imageDiv {
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: darkgray;
+}
+
+.imageDiv img {
+    width: 85%;
+    height: 100%;
+}
+
+.CardDetails {
+    width: 100%;
+    height: 33%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.ViewButtonContainer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0;
+    
+}
+
+.viewBtn {
+    width: 47%;
+    height: 90%;
+    background: green;
+    color:white;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.viewBtn:hover {
+    transform: scale(1.02);
+    transition: all 500ms ease;
+    background: rgb(4, 85, 4);
+
+}
+
+
+.AddToCart {
+    width: 47%;
+    height: 90%;
+    background: red;
+    color:white;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.AddToCart:hover {
+    transform: scale(1.02);
+    transition: all 500ms ease;
+    background: rgb(172, 3, 3);
+
+}

@@ -1,0 +1,117 @@
+.CartContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CartTitle {
+    width: 90%;
+    font-family: cursive;
+}
+.CartWrapper {
+    width: 90%;
+    height: 90%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.CartDetails {
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.ExtraInfo {
+    width: 30%;
+    height: 100%;
+    background: aqua;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 0.7%; */
+
+}
+
+.Image {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.DelBtn {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* .delete:hover {
+    font-size: 16px;
+    transition: all 300ms ;
+} */
+
+.ItemImg {
+    width: 85%;
+    height: 100%;
+    background: #000;
+    object-fit: cover;
+}
+
+.ItemImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.ItemInCart {
+    width: 100%;
+    height: 33%;
+    background: darkgray;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.ItemDetails {
+    width: 69%;
+    height: 100%;
+    display: flex;
+    font-family: monospace;
+    justify-content: space-around;
+}
+
+.ItemName, .ItemPrice, .ItemQuantity, .ItemTotal {
+    width: 19%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%; 
+    gap: 10%;
+    text-align: center;
+}
+
+.ItemName h3, .ItemPrice h3, .ItemQuantity h3 {
+    font-size: 17px;
+    color: darkblue;
+}
+.ItemName {
+    width: 35%;
+}
+
+.QtyBtn {
+    width: 21px;
+    font-size: 17px;
+    font-weight: bold;
+}

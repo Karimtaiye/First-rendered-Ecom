@@ -1,0 +1,99 @@
+* {
+    margin:  0;
+    padding:  0;
+    box-sizing: border-box;
+}
+.Header {
+    font-family: sans-serif;
+    width: 100%;
+    height: 16vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerWrapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pageName{
+    width: 13%; 
+    display: flex;
+    
+}
+
+.ReduxLogo {
+    color:red
+}
+.headerNav {
+    width: 25%;
+}
+
+.headerNav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.headerNav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+.headerNav ul li:hover{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}
+
+.headerIcons {
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    position: relative;
+}
+
+.headerIcons .Icons{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cartNumber {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    background: red;
+    right: 20%;
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+}
+
+.Profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}

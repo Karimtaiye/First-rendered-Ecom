@@ -1,0 +1,41 @@
+.ProductPage {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.ProductsCategory {
+    width: 90%;
+}
+
+.ProductsCategory ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductsCategory ul li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+}
+
+.Active {
+    color: red;
+}
+
+.Products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ProductCardsWrapper {
+    width: 90%;
+    height: max-content;
+}
